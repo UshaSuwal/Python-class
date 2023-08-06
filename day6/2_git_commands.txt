@@ -5,7 +5,50 @@
 =>configure the git global email in local(your system or laptop)
 
 The above commands are only one time for a local system
-(To check setup vs xs ki nai.if user name ra email aayo vane setup vaxa natra xaina)
+(To check setup va xa ki nai.if user name ra email aayo vane setup vaxa natra xaina)
 3. git config --global user.name 
 4. git config --global user.email
+
+5. git init
+   => initializes a repository in the local.
+   =>should not be used multiple times in a same project.
+   => .git empty folder banai dinxa
+
+6. git status
+   => j j garyo saab show garxa.
+   =>shows the current status of local repo ie. any changes that need to be added, committed,
+   pushed or pulled.
+
+
+7. .gitignore file banaune aafaile and tes vitra nachaine file haru ko name lekhne. then git status 
+    garera herda tyo file aaudaina and push ni hudaina.
+ =>if we do not intend to upload any file or folder from the local repo to remote repo, then such file and
+   folders name are kept(name matra mention garne. drag garnu pardaina) in .gitignore file.
+ =>git ignore file should be exactly " .gitignore"
+
+ 
+8. git add .
+   => Adds all the changes to the git. This is done exactly before committing the code.
+
+9. git commit -m "<commit -message">  
+   => -m (message flag:message lekhna ready vayo vaneko) 
+   => commit message ma chai code ko bare short messgae lekhne
+   => commit means code kasle lekheko vanera git lai vannu
+
+
+--global nagari
+10. git config user.name "username"
+
+11 git branch
+=>shows all the branches and highlight the current branch
+
+12. git branch -M
+=>make "main" branch as root branch
+
+12 git remote add origin git@github.com:UshaSuwal/Python-class.git
+or git remote  add origin <ssh link>
+=>adds a remote with name 'origin' in the local repo
+=>link gardinxa local repo ra remote repo
+
+
 
