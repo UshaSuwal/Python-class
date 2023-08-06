@@ -1,0 +1,11 @@
+1. git config --global user.name<username>
+=>configure the git global username in local(your system or laptop)
+
+2.  git config --global user.email<your-email>
+=>configure the git global email in local(your system or laptop)
+
+The above commands are only one time for a local system
+(To check setup vs xs ki nai.if user name ra email aayo vane setup vaxa natra xaina)
+3. git config --global user.name 
+4. git config --global user.email
+
