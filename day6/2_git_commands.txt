@@ -43,7 +43,7 @@ The above commands are only one time for a local system
 11 git branch
 =>shows all the branches and highlight the current branch
 
-12. git branch -M
+12. git branch -M main
 =>make "main" branch as root branch
 
 12 git remote add origin git@github.com:UshaSuwal/Python-class.git

@@ -1,0 +1,12 @@
+1. git branch
+=>display all the branches and highlights the current branch
+2. git branch <branch_name>
+=>create a new branch with the name provided
+3. git checkout <branch_name>
+=>leaves the current branch and jumps to the branch provided by copying all codes from current branch
+4. git checkout -b <branch_name>
+=>create a new branch and jumps to that branch by copying all the codes from current branch.
+
+(existing branch ma jada copy hudaina tara naya branch ma jada matra code copy garxa)
+
+
