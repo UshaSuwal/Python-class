@@ -19,7 +19,7 @@ print(a%b)  # % (modulus operator gives remainder of division operation)
 print(a**2)  # **(power)
 
 # Floor division
-#this operator omits the decimal vslues from the decimal operation and gives floor value
+#this operator omits the decimal values from the decimal operation and gives floor value
 print(3//2) #outout: 1
 print(-3//2) #output: -2
 
@@ -47,7 +47,6 @@ print(not c)   #(all empty and non zero are true). concept of truthy and falsy
 # =(is equals to)
 a=2+3  #sum is assigned to a 
 a+=1   # += also first sum and then assign. similarly for all operators like -=, /=, *=, %=.
-
 
 
 ###MEMBERSHIP OPERATOR###

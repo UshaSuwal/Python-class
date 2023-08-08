@@ -1,0 +1,14 @@
+What is Version Control?
+=>There can be different version of the same project which should be backward compatible.(upgrade nagare pani facebook chalnu)
+=>This version of the same project is maintained by a version control system.
+=>THere are different version control system like git,mercurial etc. Git is the most famous.
+
+Why to use version control system?
+=>To maintain versions efficiently and with less manual work.
+=>For effective team collaboration
+
+=>The project maintained with version control system is later uploaded somewhere in the cloud.
+=>There are several cloud storage services like google drive,onedrive,S3. But these storage do not 
+cooperate with version control(eg git)
+=>We should use such cloud services which understand version control.There are several such services for
+egs github, gitlab,bitbucket etc.
