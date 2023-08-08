@@ -5,3 +5,6 @@ print(result)
 
 product=a*b
 print(product)
+
+div=a/b
+print(div)
