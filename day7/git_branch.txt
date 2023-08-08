@@ -9,4 +9,7 @@
 
 (existing branch ma jada copy hudaina tara naya branch ma jada matra code copy garxa)
 
+5. git merge <branch_name>
+=>merges the code from the branch provided to the current branch
+
 
