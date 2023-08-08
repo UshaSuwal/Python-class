@@ -1,9 +1,13 @@
 1. git branch
 =>display all the branches and highlights the current branch
+
 2. git branch <branch_name>
 =>create a new branch with the name provided
+
 3. git checkout <branch_name>
-=>leaves the current branch and jumps to the branch provided by copying all codes from current branch
+=>leaves the current branch and jumps to the branch provided by copying all codes from current branch.
+=>saab add ra commit nagare samma checkout garna mildaina.
+
 4. git checkout -b <branch_name>
 =>create a new branch and jumps to that branch by copying all the codes from current branch.
 
@@ -11,8 +15,10 @@
 
 5. git merge <branch_name>
 =>merges the code from the branch provided to the current branch
-branch1 ma branch2 merge garne vaye branch1 ma basera git merge branch2 garnu parxa.
-merge gari sake paxi add ra commit gari rakhnu pardaina if paila ko branch ma already add ra commit
- gareko xa vane.sidai git push gare pugxa.
+=>branch1 ma branch2 merge garne vaye branch1 ma basera git merge branch2 garnu parxa.
+
+
+(feri add ra commit gari rakhnu pardaina if paila ko branch ma already add ra commit
+ gareko xa vane.sidai git push gare pugxa.)
 
 
