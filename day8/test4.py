@@ -1,3 +1,3 @@
 a=1
 b=2
-print(a and b)
+print(a not b)
