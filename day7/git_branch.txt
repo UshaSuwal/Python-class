@@ -11,5 +11,8 @@
 
 5. git merge <branch_name>
 =>merges the code from the branch provided to the current branch
+branch1 ma branch2 merge garne vaye branch1 ma basera git merge branch2 garnu parxa.
+merge gari sake paxi add ra commit gari rakhnu pardaina if paila ko branch ma already add ra commit
+ gareko xa vane.sidai git push gare pugxa.
 
 
