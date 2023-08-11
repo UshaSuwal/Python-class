@@ -17,6 +17,12 @@
 =>merges the code from the branch provided to the current branch
 =>branch1 ma branch2 merge garne vaye branch1 ma basera git merge branch2 garnu parxa.
 
+6. git branch -D branch_name
+=> branch delete garna
+
+7. git clone <link>
+=> similar to download
+
 
 (feri add ra commit gari rakhnu pardaina if paila ko branch ma already add ra commit
  gareko xa vane.sidai git push gare pugxa.)
