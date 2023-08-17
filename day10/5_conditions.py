@@ -55,3 +55,18 @@ if a>10:
         print(f"{a} is just greater than 10")
 else:
     print(f"{a} is less than 10")
+
+
+# ternary if
+# one liner conditions are called ternary if
+a=10
+b=5
+
+#simple if:
+if a>b:
+    print("a is greater")
+else:
+    print("b is greater")
+
+#ternary if:
+print("a is greater") if a>b else print("b is greater")
