@@ -1,11 +1,11 @@
 ####OPERATORS####
-#operators are symbol in pyhton or in any programming language that carry out arithmetic and logical operations
+#operators are symbol in python or in any programming language that carry out arithmetic and logical operations
 #the python operators are :
 #1. Arithmetic operators
 #2. Relational operators
 #3. Logical operators
 #4. membership operators
-#5. idientity operators
+#5. identity operators
 #6. assignment operators
 
 ###ARITHMETIC###
@@ -20,7 +20,7 @@ print(a**2)  # **(power)
 
 # Floor division
 #this operator omits the decimal values from the decimal operation and gives floor value
-print(3//2) #outout: 1
+print(3//2) #output: 1
 print(-3//2) #output: -2
 
 
@@ -28,10 +28,11 @@ print(-3//2) #output: -2
 ###RELATIONAL OR COMPARION###
 # ==, <, >, >=, <=, != are the relational operators.
 #it gives boolean result ie either TRUE or FALSE
-print(a==b)
+print(a==b)   # is equals to
 print(a>b)
 print(a<=b)
-print(a!=b)
+print(a!=b)   # not equals to
+print(a>=b)  
 
 
 
