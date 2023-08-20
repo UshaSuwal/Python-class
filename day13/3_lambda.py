@@ -3,6 +3,7 @@
 #one line function ko lagi better
 #call garnu parne thau ma use nagarnu is better
 #auto return hunxa
+# mainly used in map, filter, reduce.
 
 def squared(num):
     return num**2
