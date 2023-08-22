@@ -1,0 +1,32 @@
+-We may have different projects that may require different package dependencies.
+-Your project1 may have pandas version 2.1 whereas project2 may have pandas version 2.5 in the 
+ same system.So, this aries a problem. If you want to work on project1 then one of packages
+ must be uninstalled from your global system and another version should be installed.
+
+-This problem can be solved creating a virtual environments in your system.
+-Virtual environment is an isolated environment to keep the packages required for your project.
+-It solves the problem of installing and uninstalling packages for different projects in a same system.
+
+-Every python project must be done with a virtual environment activated.
+
+- Commands for Virtual Environment:
+
+1.python -m venv <environment_name>
+  => this command creates a new virtual environment(for this session let's say "venv")
+
+2. venv\Scripts\activate (for windows device enter this command in command prompt)
+   source venv/bin/activate (for mac and linux devices)
+   => this command activate Virtual Environment
+3. deactivate
+  => it deactivates the virtual environment
+4. pip freeze
+  => it displays all the packages installed in the environment
+
+5. pip freeze > requirement.txt
+  => Add all the dependencies of the project in requirement.txt file
+
+6. pip install -r requirement.txt
+  => Recursively installs all the packages in the virtual environment
+
+
+project vitra baneko venv folder lai gitignore ma rakhney git push garda.
