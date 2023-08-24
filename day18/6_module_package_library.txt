@@ -1,0 +1,4 @@
+- Each file of python with extension .py is python module
+- Collection of these modules make a python package
+- Collection of python packages makes a python library
+
