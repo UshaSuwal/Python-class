@@ -30,3 +30,4 @@
 
 
 project vitra baneko venv folder lai gitignore ma rakhney git push garda.
+Note: make sure you are doing in cmd and not in powershell
