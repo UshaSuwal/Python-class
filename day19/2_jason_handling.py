@@ -36,7 +36,7 @@ with open(filename,"w+") as fp:
     data=json.dumps(student1,indent=2)
     fp.write(data)
     fp.seek(0)
-    data=json.loads(fp.read())   #load navako vaye string hunthyo
+    data=json.loads(fp.read())   #load navako vaye string hunthyo. so traverse garna easy hos vanera list banauxa load le
     print(data)
-name=data[0]["name"]   # name= Harry
+name=data[0]["name"]   # name= Harry   
 name=data[1]["name"]   # name= John

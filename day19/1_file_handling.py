@@ -1,11 +1,13 @@
-# we can open, close, read, write 
+# We can open, close, read, write or perform any other kind of work with file using Python
+# There are several modes from which we can open a file
 
-#r=> read file
-#w=> write in file
-#r+=> read and write mode     ,append jasto hunxa
-#w+=> write and read mode     , overwrite gardinxa
-#x=> exclusive write mode     , if file already exits then it raise error
-#a+=> append and read mode
+# r => read file
+# w => write in file
+# a => append mode
+# r+ => read and write mode     ,append jasto hunxa
+# w+ => write and read mode     , overwrite gardinxa
+# x => exclusive write mode     , if file already exits then it raise error
+# a+ => append and read mode
 
 
 
@@ -46,5 +48,6 @@ with open(filename,"w+") as fp:
     data=fp.read()
     print(data)  
 
-#with open(filename,"x") as fp:
+# with open(filename,"x") as fp:
    # fp.write("Hello World.I'm learning python")
+# filename= message.txt is already created so it will raise error
