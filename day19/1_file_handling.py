@@ -2,7 +2,7 @@
 # There are several modes from which we can open a file
 
 # r => read file
-# w => write in file
+# w => write in file           , overwrite hunxa     
 # a => append mode
 # r+ => read and write mode     ,append jasto hunxa
 # w+ => write and read mode     , overwrite gardinxa

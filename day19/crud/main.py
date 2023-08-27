@@ -1,28 +1,10 @@
-#from crud.create import create_student
-#from crud.read import read_student
-#from day19.crud.update import update_student
-#from day19.crud.delete import delete_student
-
-import json
-filename="student_info.json"
-
-## create
-def create_student():
-    id=input("Enter student id")
-    name=input("Enter student name")
-    age=input("enter student age ")
-
-    student=dict(id=id,name=name,age=age)
-    with open(filename,"w") as fp:
-        data=json.dumps(student)
-        fp.write(data)
-    print("Student Added Successfully")
-
-
-
+from create import create_student
+from read import read_student
+from update import update_student
+from delete import delete_student
 
 def inquiry():
-    selection=input("Enter your choice c/r/u/d/e")
+    selection=input("Enter your choice c/r/u/d/e ")
     selection=selection.lower()
 
     def exit_message():
@@ -30,13 +12,20 @@ def inquiry():
 
 
     if selection=="c":
-        create_student()
+        repeat=create_student()    # repeat will have True or False value which is returned from create.
+        inquiry() if repeat else exit_message()      
     elif selection=="r":
-        read_student()
+        student_id=input("Enter the student id ")
+        repeat=read_student(student_id)
+        inquiry() if repeat else exit_message()
     elif selection=="u":
-        update_student()
+        student_id=input("Enter the student id ")
+        repeat=update_student(student_id)
+        inquiry() if repeat else exit_message()
     elif selection=="d":
-        delete_student()
+        student_id=input("Enter a id you want to delete ")
+        repeat=delete_student(student_id)
+        inquiry() if repeat else exit_message()
     else:
         exit_message()
 
