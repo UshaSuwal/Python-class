@@ -7,7 +7,7 @@ def read_student(student_id):
         students=json.loads(fp.read())
     s=list(filter(lambda x:x["id"]==student_id ,students))
     if s:      
-        s=s[0]               
+        s=s[0]         # s will be in form of list          
         print(s)
     else:
         print("No student of this id")

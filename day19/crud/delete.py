@@ -16,4 +16,9 @@ def delete_student(student_id):
         print("Invalid id")
     repeat=input("Do you want to continue? (Y/N)")
     return True if repeat.lower()=='y' else False
+
+
+# read xuttai and write xuttai gareko because:
+# delete garesi list will be small than previous so r+ garda tala ko remaining baki hunxa 
+# so write xuttai gareko.write le purai over write gardinxa.
     
