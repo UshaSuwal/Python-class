@@ -15,3 +15,5 @@ else:
 # Note:
 # psql -U postgres
 # in mac: postgres
+# C:\Program Files\PostgreSQL\15\data
+#postgress1212

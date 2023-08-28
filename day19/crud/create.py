@@ -2,7 +2,6 @@ import json
 import os
 filename="student_info.json"
 
-## create
 def create_student():
     id=input("Enter student id ")
     name=input("Enter student name ")
