@@ -7,7 +7,9 @@ name=input("Enter name")
 age=int(input("Enter age"))
 
 sql=f"""
-INSERT INTO STUDENT(ID,NAME,AGE) VALUES ('{id}','{name}','{age}')    # only single quote ''
+INSERT INTO STUDENT(ID,NAME,AGE) VALUES ('{id}','{name}','{age}')   
 """
+ # only single quote ''
+ 
 cursor.execute(sql)
 print("Student added successfully!!")

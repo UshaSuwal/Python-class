@@ -1,0 +1,10 @@
+1. ORM stands for Object Relational Mapping.
+2. Using ORM, we can query the database with python objects.
+3. If we use ORM then we dont have to query databse with raw queries.
+4. SQLAlchemy is a famous python library that provides ORM feature.
+
+Here is an example from Django ORM
+    Student.objects.filter(id=3).delete()
+
+Here is an example from SQLAlchemy 
+    Student.delete().where(Student.id=="3)
