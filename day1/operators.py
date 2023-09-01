@@ -72,6 +72,11 @@ print(id(a)==id(b)) #output=True  id le memory location dekhauxa
 c=a.copy()
 print(a is c)  #output=false  here a and c have same value but are not in same memory location
 
+a=None
+b=None
+print(a is b) #True
+#None le memory lidaina
+
 
 
                           ####PRECEDENCE AND ASSOCIATIVITY####
