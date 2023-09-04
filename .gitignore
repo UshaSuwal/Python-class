@@ -4,3 +4,8 @@ file vaye . bata start garne
 nachaine saab files like cache files haru yesma store hunxa
 __pycache__/
 venv/
+
+day26/survey_results_public.csv
+day26/survey_results_schema.csv
+
+stack_data/
