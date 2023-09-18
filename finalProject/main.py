@@ -30,7 +30,7 @@ class User(Base):
         self.semester=num_semesters
         self.registration=registration_status
 
-engine=create_engine("sqlite:///form1.db",echo=True)
+engine=create_engine("sqlite:///form.db",echo=True)
 Base.metadata.create_all(bind=engine)
 Session=sessionmaker(bind=engine)
 session=Session()
@@ -166,9 +166,30 @@ def update_row():
         new_age=int(input(print("Enter new age")))
         session.query(User).filter(User.id==update_id).update({"age":new_age})
         session.commit()
+    elif(count==4):
+        new_title=input(print("Enter new title(Mr./Ms.)"))
+        session.query(User).filter(User.id==update_id).update({"title":new_title})
+        session.commit()
+    elif(count==5):
+        new_nationality=input(print("Enter new nationality"))
+        session.query(User).filter(User.id==update_id).update({"nationality":new_nationality})
+        session.commit()
+    elif(count==6):
+        new_status=input(print("Enter new registration status(Registered/Not Registered)"))
+        session.query(User).filter(User.id==update_id).update({"registration_status":new_status})
+        session.commit()
+    elif(count==7):
+        new_courses=int(input(print("Enter new completed course number")))
+        session.query(User).filter(User.id==update_id).update({"num_courses":new_courses})
+        session.commit()
+    elif(count==8):
+        new_sem=int(input(print("Enter new semester number")))
+        session.query(User).filter(User.id==update_id).update({"num_semesters":new_sem})
+        session.commit()
     else:
         print("Enter valid choice!!(1/2/3/4/5/6/7/8):")
         update_row()
+    print("Updated Successfully")
     upgrade_form()
 
 
